@@ -25,7 +25,7 @@ jobs:
           postman login --with-api-key $POSTMAN_API_KEY
           # Replace with your own collection and environment IDs from Postman
           postman collection run "48849938-7ebabf28-6bcd-445a-823d-46ab1dcdd5f0" \
-            --environment "48849938-4cc0bae5-c233-450c-93d1-ea138a761eb4" \
+            --environment "4cc0bae5-c233-450c-93d1-ea138a761eb4" \
             --reporters cli,json \
             --reporter-json-export results.json
 
